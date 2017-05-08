@@ -1,0 +1,8 @@
+title: Henry的BLOG
+description: Henry的BLOG
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-architect
+
+gems:
+  - jekyll-mentions
