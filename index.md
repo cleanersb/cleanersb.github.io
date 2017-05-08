@@ -1,2 +1,1 @@
-# cleanersb.github.io
-Henry的BLOG
+# 一个从零开始的前端小白
