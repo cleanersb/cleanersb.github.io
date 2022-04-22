@@ -1,0 +1,6 @@
+http://example.com/2022/04/22/%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/
+http://example.com/2022/04/22/%E4%BD%BF%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/
+http://example.com/
+http://example.com/tags/%E4%BA%A7%E5%93%81/
+http://example.com/tags/%E6%8A%80%E6%9C%AF/
+http://example.com/tags/Hexo/

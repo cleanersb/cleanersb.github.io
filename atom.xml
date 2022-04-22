@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Henry的Blog</title>
+  
+  <subtitle>记录Henry点滴生活</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-04-22T12:57:23.327Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Henry</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>产品设计的一些想法</title>
+    <link href="http://example.com/2022/04/22/%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/"/>
+    <id>http://example.com/2022/04/22/%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/</id>
+    <published>2022-04-22T10:29:20.000Z</published>
+    <updated>2022-04-22T12:57:23.327Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在陆陆续续强迫自己看一些关于产品的相关文章，“摘抄并思考”了一些文字，借此记录下来</p><p><strong>1、产品经理的职责</strong></p><ul><li>以前的产品经理：主要负责已经存在的产品，更多的精力是放在营销和推广</li><li>现在的产品经理：主要负责0到1的产品，<strong>从无到有，从有到优</strong>的过程，包括整个产品的生命周期管理。</li></ul><p><strong>2、多听客户的需求，但不是所有的需求都要照做</strong><br>一个产品众口难调，尤其是2C的产品，外界的声音非常多，我们当然也必须要学会多听听他们的声音，但是收到声音不一定要照做，因为用户发出的声音只是站在那个用户的角度，甚至是当下他的立场。我们要做的是<strong>挖掘这个声音背后的根因</strong>，我们要<strong>抓大头抓核心，不要面面俱到</strong></p><p><strong>3、满足所有的用户是<font color=#ff0000>绝对不可能</font>的🙅</strong><br>这个点跟第二点有点像，产品经理的最大的工作就是调研和理解客户的需求，虽然我们要以客户为中心，但是一个客户提需求，我们可以满足，但是100个客户来，我们就要学会<strong>优先级，裁决需求</strong>甚至我们会发现，很多客户的需求都是自相矛盾的。</p><p><strong>4、关注<u>核心用户</u>还是<u>绝大多数用户</u></strong><br>任何一个产品都有“短头客户”和“长尾客户”，当然在不考虑资源的情况下，我们都可以满足所有的需求，但是我们资源有限，人力有限，我们就要<strong>结合我们的产品的目标</strong>具体评估，举个例子，如果今年的目标是10w用户流量，我们发现vip付费用户只有2w，那我们肯定优先考虑长尾用户</p><p>好了，字数差不多了，其他的想法下次在分享吧～😊</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;最近在陆陆续续强迫自己看一些关于产品的相关文章，“摘抄并思考”了一些文字，借此记录下来&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1、产品经理的职责&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;以前的产品经理：主要负责已经存在的产品，更多的精力是放在营销和推广&lt;/li&gt;
+&lt;li&gt;现在的</summary>
+      
+    
+    
+    
+    
+    <category term="产品" scheme="http://example.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Hexo搭建个人博客</title>
+    <link href="http://example.com/2022/04/22/%E4%BD%BF%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://example.com/2022/04/22/%E4%BD%BF%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2022-04-22T09:48:29.000Z</published>
+    <updated>2022-04-22T12:56:58.611Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近一直漫无目的的在网上浏览文章，决定自己搭建一个博客，苦于太穷，买不起服务器，Hexo+GitHub Page简直就是我这种穷孩子的福音。</p><p>开始吧！</p><h4 id="搭建框架"><a href="#搭建框架" class="headerlink" title="搭建框架"></a>搭建框架</h4><p>搭建框架主要分以下几步：<br>1、安装NodeJs——直接去官网下载即可<br>2、安装Hexo基础框架</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo</span><br></pre></td></tr></table></figure><p>3、初始化Hexo框架——在电脑任意位置创建一个目录，例如：myBlog，执行以下命令</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure><p>4、安装所需要的组件——在Hexo项目的根目录下执行</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure><p>5、编译生成静态页面</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure><p>6、启动本地服务</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>7、若推倒了github上，则使用下面的命令进行发布</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>完成以上步骤，如果显示如下：</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xxxxx <span class="attr">http</span>:<span class="comment">//localhost:4000/. Press Ctrl+C to stop</span></span><br></pre></td></tr></table></figure><p>则说明本地建站成功，访问本地地址就可以看到了～</p><h4 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h4><p>默认的主题确实比较丑！Hexo是支持更换主题的<br>可以在<a href="https://hexo.io/themes">Hexo的主题官网</a>寻找想要的主题<br>每个主题都有对应的使用方法</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;最近一直漫无目的的在网上浏览文章，决定自己搭建一个博客，苦于太穷，买不起服务器，Hexo+GitHub Page简直就是我这种穷孩子的福音。&lt;/p&gt;
+&lt;p&gt;开始吧！&lt;/p&gt;
+&lt;h4 id=&quot;搭建框架&quot;&gt;&lt;a href=&quot;#搭建框架&quot; class=&quot;headerlink&quot; t</summary>
+      
+    
+    
+    
+    
+    <category term="技术" scheme="http://example.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
